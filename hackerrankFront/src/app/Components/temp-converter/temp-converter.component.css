@@ -1,0 +1,15 @@
+.temp-converter {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+  }
+  
+  label {
+    margin-top: 10px;
+  }
+  
+  input {
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  

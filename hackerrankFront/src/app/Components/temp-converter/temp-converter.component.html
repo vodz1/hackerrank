@@ -1,0 +1,7 @@
+<div class="temp-converter">
+    <label for="celsius">Celsius</label>
+    <input type="number" (change)="celsiusConverter($event)" [(ngModel)]="celsius">
+    <br>
+    <label for="fahrenheit">Fahrenheit</label>
+    <input type="number" (change)="fahrenheitConverter($event)" [(ngModel)]="fahrenheit">
+</div>
